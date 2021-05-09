@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Raleway:wght@300&display=swap');
+
+/*
+*  
+* =====================
+* GENERAL
+* =====================
+*/
+:root{
+    --profileIcon-bg-color: rgba(0, 0, 0, 0.548);
+}
+
+.bgImage{
+    background-image: linear-gradient(to right, #C6FFDD, #FBD786 ,#f7797d);
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline:none !important;
+}
+
+i{
+    font-size: 1.2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active, a:focus {
+    outline: none;
+    border: none;
+    -moz-outline-style: none;
+    outline-style: none;
+}
+
+.text-darkColor{
+    color: rgba(12, 12, 12, 0.699);
+}
+
+.text-Raleway-thin100{
+    font-family: 'Raleway', sans-serif;
+}
+.text-ComicNeue-regular400{
+    font-family: 'Comic Neue', cursive;
+}
+
+/**/
+
+/*
+*  
+* =====================
+* Header
+* =====================
+*/
+
+.searchInput{
+    padding-right: 10px;
+}
+.navHeaditem li a{
+    color: rgba(12, 12, 12, 0.699);
+    
+}
+.navHeaditem #navHeaditem2{
+    margin-right: 0px;
+}
+
+.header-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--profileIcon-bg-color);
+}
+
+/**/
+
+/*
+*  
+* =====================
+* SIDEBAR
+* =====================
+*/
+
+.sidebar {
+    background-image:linear-gradient(360deg, #ECE9E6 , #FFFFFF );
+    opacity: 0.7;
+    border-radius: 10px;
+    text-align: center;
+    width: 13em;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-top: 30px;
+}
+
+.sidebar .sidebar-list-item:hover{
+    background-color:  rgba(0, 0, 0, 0.219);
+}
+
+.sidebar hr{
+    color: rgb(0, 0, 0);
+    width: 150px; 
+    height: 2px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.sidebar li{
+    padding: 5%;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.siderbar .sidebarTitle{
+    color: rgb(0, 0, 0);
+}
+
+.sidebar i{
+    color: rgb(0, 0, 0);
+}
+.sidebar span{
+    color: rgb(0, 0, 0);
+}
+
+.sidebar.hidden {
+    width: 5.8em;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.sidebar.hidden .sidebar-link{
+    padding-top: 10%;
+}
+
+.sidebar.hidden hr{
+    width: 70px; 
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.sidebar.hidden a{
+    width: 5.2em;
+}
+
+.sidebar.hidden i{
+    margin-bottom: 15px;
+}
+
+.sidebar.hidden .sidebar-link {
+    display: block;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.sidebar.hidden .sidebar-link span {
+    display: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.sidebar.hidden li:hover{
+    background-color: rgba(0, 0, 0, 0.219);
+    margin-top: auto;
+    width: fit-content;
+}
+/**/
+
+/*
+*  
+* =====================
+* CARD 
+* =====================
+*/
+
+.card{
+    border-radius: 0.5em;
+}
+
+.card textarea{
+    -moz-outline-style: none;
+    outline-style: none;
+    resize: none;
+    border: none;
+    border-radius: 0.5em;
+    padding: 10px;
+}
+
+.card input{
+    background-color: rgb(255, 191, 252);
+    border: none;
+    border-radius: 0.3em;
+}
+
+.card input:hover{
+    background-color:  rgba(255, 6, 201, 0.555);
+}
+
+.card-body a{
+    background-color: rgb(255, 191, 252);
+    border: none;
+    border-radius: 0.3em;
+}
+.card-body a:hover{
+    background-color:  rgba(255, 6, 201, 0.555);
+}
+
+/**/
+
+
+
+/*
+*  
+* =====================
+* ToDoList
+* =====================
+*/
+
+.tdl-holder ul, .tdl-holder li {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.tdl-holder li{
+    background-color: rgba(221, 160, 221, 0.26);
+	
+}
+
+.tdl-holder li span{
+	margin-left:30px;
+	-webkit-transition: all .2s linear;
+	   -moz-transition: all .2s linear;
+	     -o-transition: all .2s linear;
+		    transition: all .2s linear;	
+}
+
+.tdl-holder label{
+	cursor:pointer;
+	display:block;
+	line-height: 56px;
+	padding: 0 ;    
+    position: relative;
+    width: auto;
+}
+
+.tdl-holder label:hover{
+	background-color:  rgba(255, 6, 201, 0.555);
+}
+
+.tdl-holder label a{
+	background-color:#fa0000;
+	border-radius:50%;
+	color:#fff;
+	display:none;
+	float:right;
+	font-weight: bold;
+	line-height: normal;
+	height:16px;
+    margin-top: 20px;
+    margin-right: 1%;
+	text-align: center;
+	text-decoration: none;
+	width:16px;
+	-webkit-transition: all .2s linear;
+	   -moz-transition: all .2s linear;
+	     -o-transition: all .2s linear;
+		    transition: all .2s linear;	
+}
+
+.tdl-holder label:hover a{
+	display: block;
+}
+
+.tdl-holder label a:hover{	
+	background-color:#fff;
+	color:#de3f53;
+}
+
+
+.tdl-holder input[type="checkbox"]{
+    background-color: rgb(255, 191, 252);
+    cursor: pointer;
+    position: absolute;
+    top:30%;
+}
+
+
+.tdl-holder input[type="checkbox"]:checked ~ span{	
+	color: #586186;
+	text-decoration: line-through;
+}
+
+
+
+
+.tdl-holder input[type="text"]{
+	border: none;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	box-shadow: inset 0 0 8px 0 #0e1329;
+	color: #464f72;
+	font-size:14px;
+	margin:0;
+	padding:20px 15px;
+	width:100%;
+	-webkit-transition: all .2s linear;
+	   -moz-transition: all .2s linear;
+	     -o-transition: all .2s linear;
+		    transition: all .2s linear;		
+}
+
+.tdl-holder input[type="text"]:hover{
+	color:#4c577f;
+}
+
+.tdl-holder input[type="text"]:focus{
+	color:#fff;
+}
+
+
+
+
+
+
+
+.tdl-holder li.remove{
+	-webkit-animation:collapseItem 300ms ease;
+			animation:collapseItem 300ms ease;
+	-webkit-transform-origin: 50% 0%;
+		-ms-transform-origin: 50% 0%;
+			transform-origin: 50% 0%;
+
+}
+
+.tdl-holder li.remove span{
+	color: #586186;
+	text-decoration: line-through;
+}
+
+@keyframes collapseItem {
+    0% 		{ -ms-transform: perspective(500px) rotateX(0deg);transform: perspective(500px) rotateX(0deg); 	}
+    100% 	{ -ms-transform: perspective(500px) rotateX(-90deg);transform: perspective(500px) rotateX(-90deg); }
+}
+
+@-webkit-keyframes collapseItem {
+    0% 		{ -webkit-transform: perspective(500px) rotateX(0deg); 	}
+    100% 	{ -webkit-transform: perspective(500px) rotateX(-90deg);}
+}
+
+/**/
+
+
+/*
+*  
+* =====================
+* Payslip
+* =====================
+*/
+
+.tablebody input{
+    background-color: rgb(255, 191, 252);
+    padding: 5px;
+    border: none;
+}
+.tablebody input:hover{
+    background-color: rgba(255, 191, 252, 0.363);
+
+}
+
+/**/
