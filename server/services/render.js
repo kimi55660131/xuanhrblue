@@ -42,8 +42,3 @@ exports.employeeUpdateForm = (req,res)=>{
         res.send(err)
     })
 }
-
-
-
-
-
