@@ -1,0 +1,120 @@
+<!--Header-->
+<%- include('include/_header'); -%>
+<!--/Header-->
+
+<!--Content-->
+<div class="page-holder text-ComicNeue-regular400 w-100 d-flex flex-wrap" style=" margin-top: 3%; margin-left: 1%; " id="form" >
+    <div class="container-fluid">
+        <div class="row">
+
+            <!--QuickActionContent-->
+            <div class="col-lg-12">
+                <h2 style="margin-left: 2%;"> Welcome Back Beautiful Jennifer Tan ! </h2>
+                <br>
+                <h4 style="margin-left: 2%;"> Quick Action </h4>
+            </div>  
+            <div class="col-lg-4">
+                <div class="card shadow border-light" style="background-color: rgb(255, 255, 255);">
+                    <div class="card-body">
+                      <h5 class="card-title">Filter System</h5>
+                      <hr>
+                      <p class="card-text text-muted">System thats help filtering the log.</p>
+                      <a href="/FilterArea" class="btn shadow" ><span style="color: whitesmoke;">Start Filter</span></a>
+                      <p style="margin-top: 1%;"> ↑ Move to Filter Area :D</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-lg-4">
+                <div class="card shadow border-light" style="background-color: rgb(255, 255, 255);">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Payslip Form</h5>
+                        <hr>
+                        <p class="card-text text-muted">Form thats show payslip.</p>
+                        <a href="../views/Payslip.html" class="btn shadow" ><span style="color: whitesmoke;">Payslip</span></a>
+                        <p style="margin-top: 1%;"> ↑ Move to Payslip Area :D</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card shadow border-light" style="background-color: rgb(255, 255, 255);">
+
+                    <div class="card-body">
+                        <h5 class="card-title">CRUD System</h5>
+                        <hr>
+                        <p class="card-text text-muted">System thats Create, Retrieve, Update and Delete users.</p>
+                        <a href="#" class="btn shadow" ><span style="color: whitesmoke;">Start CRUD</span></a>
+                        <p style="margin-top: 1%;"> ↑ Move to CRUD Area :D</p> 
+                        
+                      </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card shadow border-light" style="margin-top: 1%; background-color: rgb(255, 255, 255);">
+                    <div class="card-body">
+                        <h5 class="card-title">Payroll System</h5>
+                        <hr>
+                        <p class="card-text text-muted">System thats help calculating employee salary.</p>
+                        <a href="../views/PayrollForm.html" class="btn shadow "><span style="color: whitesmoke;">Start Calculate</span></a>
+                        <p style="margin-top: 1%;"> ↑ Move to Payroll Area :D</p>   
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card shadow border-light" style="margin-top: 1%; background-color: rgb(255, 255, 255);">
+                    <div class="card-body">
+                        <h5 class="card-title">Employee Management</h5>
+                        <hr>
+                        <p class="card-text text-muted">Action in maintaining .......</p>
+                        <a href="/UserManagement" class="btn shadow"><span style="color: whitesmoke;">Demo</span></a>  ← Empty Area :D
+                    </div >
+                </div>
+            </div>
+            <!--/QuickActionContent--> 
+
+            <!--ToDoList-->
+            <div class="col-lg-12">
+                <div class="card shadow border-light" style="margin-top: 3%; background-color: rgb(255, 255, 255);">
+                    <div class="card-body">
+                        <h5 class="card-title">To Do List （待办事项清单）<input style="padding-left: 1%;" type="date" id="DateField" name="date" size=3 maxlength=3 value=today></h5>
+                        <hr>
+                        <div class="tdl-holder">
+                            <div class="form-check tdl-content">
+                                <ul>
+                                    <li><label class="form-check-label" for="flexCheckChecked">
+                                        <input type="checkbox" class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                            <i></i>
+                                            <span>I Love You</span>
+                                            <a href='#'>–</a>
+                                        </label>
+                                    </li>
+                                    
+                                    <li><label class="form-check-label" for="flexCheckChecked"><input type="checkbox" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked><i></i><span>Everyday</span><a href='#'>–</a></label></li>
+                                    <li><label class="form-check-label" for="flexCheckChecked"><input type="checkbox" class="form-check-input" type="checkbox" value="" id="flexCheckChecked"><i></i><span>Don't give up the fight.</span><a href='#'>–</a></label></li>
+                                    <li><label class="form-check-label" for="flexCheckChecked"><input type="checkbox" class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked><i></i><span>Save the world.</span><a href='#'>–</a></label></li>
+                                    <li><label class="form-check-label" for="flexCheckChecked"><input type="checkbox" class="form-check-input" type="checkbox" value="" id="flexCheckChecked"><i></i><span>Do something else</span><a href='#'>–</a></label></li>
+                                </ul>
+                            </div>
+                            <input type="text" class="tdl-new" placeholder="Write new item and hit 'Enter'...">
+                        </div>
+                    </div >
+                </div>
+            </div>
+            <!--/ToDoList-->
+
+        </div>
+    </div>
+</div>
+<!--/Content-->
+
+
+
+
+</div>
+</div>
+
+<!--Footer-->
+<%- include('include/_footer1') -%>
+<!--Footer-->
